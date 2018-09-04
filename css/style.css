@@ -58,10 +58,20 @@ img {
   border-radius: 50%;
   width: 530px;
   height: 530px;
+/*
   background-image: url("../img/photo.jpg");
   background-position: -12% center;
   background-size: 90%;
+*/
   filter: grayscale(80%);
+}
+
+.page-header__photo img {
+  display: block;
+  border-radius: 50%;
+  width: 530px;
+  height: 530px;
+  object-fit: cover;
 }
 
 .page-header__text {
